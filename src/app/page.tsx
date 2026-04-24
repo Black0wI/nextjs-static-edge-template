@@ -34,7 +34,7 @@ export default function Home() {
               Explore Features
             </Link>
             <a
-              href="https://github.com/Black0wI/nextjs-static-edge-template"
+              href="https://github.com/Black0wI/fullstack-serverless-ssr"
               className="btn btn--ghost btn--lg"
               target="_blank"
               rel="noopener noreferrer"

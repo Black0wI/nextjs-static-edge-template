@@ -3,7 +3,6 @@
   "version": "1.1.0",
   "private": true,
   "description": "Next.js 16 Full-Stack SSR — AWS SST v4 Ion + CloudFront + Lambda + Cloudflare DNS",
-  "author": "Jean-Baptiste MONIN",
   "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack -p 4040",
