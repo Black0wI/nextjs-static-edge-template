@@ -27,8 +27,8 @@
 
 ```bash
 # Clone and setup
-git clone https://github.com/Black0wI/nextjs-static-edge-template.git
-cd nextjs-static-edge-template
+git clone https://github.com/Black0wI/fullstack-serverless-ssr.git
+cd fullstack-serverless-ssr
 make setup
 
 # Start development
@@ -135,7 +135,7 @@ new sst.aws.Nextjs("Web", {
 
 - **Core production path:** Next.js app, SST deployment, CloudFront/OpenNext runtime, API routes, server actions, build, unit tests, and E2E checks.
 - **Optional features:** PWA, Cloudflare analytics, Google auth provider, custom auth flows, and Cloudflare DNS deployment integration.
-- **Example-only code:** the Credentials auth provider in [src/lib/auth.ts](/Users/jbm/Documents/GitHub/nextjs-static-edge-template/src/lib/auth.ts) is a stub and must be replaced before using auth in production.
+- **Example-only code:** the Credentials auth provider in `src/lib/auth.ts` is a stub and must be replaced before using auth in production.
 - **Non-goal by default:** distributed rate limiting. The proxy keeps a best-effort in-memory limiter for non-production only; production deployments should use a shared backend such as Redis or DynamoDB if rate limiting is required.
 
 ## AI Integration
@@ -162,4 +162,4 @@ This boilerplate ships with project context files that let AI coding assistants 
 
 ## License
 
-MIT — [Jean-Baptiste MONIN](LICENSE)
+MIT — see [LICENSE](LICENSE)

@@ -11,6 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Getting Started guide** — Comprehensive onboarding doc covering project setup, development, deployment, releases, and common recipes (`docs/GETTING_STARTED.md`)
 
+### Changed
+
+- **Template metadata** — Removed author-specific package metadata to keep the starter neutral for reuse
+- **Repository content** — Cleaned remaining product-specific and repo-specific references from docs, links, and locale copy
+
+### Removed
+
+- **Draft product spec** — Removed the Intel Portal draft spec from `docs/specs/`
+- **Unused sample dataset** — Removed `src/lib/mock-data.ts` and its product-oriented mock content
+
 ## [1.1.0] — 2026-03-11
 
 ### Added
@@ -70,7 +80,6 @@ First stable release of the Next.js SST Boilerplate.
 
 ### Changed
 
-- Project renamed from "Tech Portal" to "Fullstack Serverless SSR" then "Next.js SST Boilerplate"
 - Footer converted to client component (cacheComponents compatibility)
 - Rate limiter scoped to non-production only
 - Docs page rewritten with remark AST (replaced `dangerouslySetInnerHTML`)
@@ -82,7 +91,6 @@ First stable release of the Next.js SST Boilerplate.
 
 - Migrated from SST v3 to SST v4 Ion with direct CLI deployment
 - Removed GitHub Actions CI/CD (deploy now via `npx sst deploy`)
-- Cleaned up dashboard routes and renamed project branding
 
 ## [0.2.0] — 2026-03-04
 
@@ -111,10 +119,3 @@ First stable release of the Next.js SST Boilerplate.
 - Dev Container for VS Code
 - Migration from Terraform to SST v3 (Ion)
 - Environment validation, rate limiting, auth, i18n, SEO, error boundary
-
-[1.1.0]: https://github.com/Black0wI/fullstack-serverless-ssr/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/Black0wI/fullstack-serverless-ssr/compare/v0.4.0...v1.0.0
-[0.4.0]: https://github.com/Black0wI/fullstack-serverless-ssr/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/Black0wI/fullstack-serverless-ssr/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/Black0wI/fullstack-serverless-ssr/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/Black0wI/fullstack-serverless-ssr/releases/tag/v0.1.0

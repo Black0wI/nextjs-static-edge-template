@@ -7,8 +7,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Votre portail tech",
-    "subtitle": "Application moderne, rapide et sécurisée",
+    "title": "Votre application Next.js",
+    "subtitle": "Boilerplate moderne, rapide et sécurisé",
     "cta": "Commencer"
   },
   "common": {
@@ -25,7 +25,7 @@
     "noResults": "Aucun résultat"
   },
   "footer": {
-    "copyright": "© {year} IT-Akademy. Tous droits réservés.",
+    "copyright": "© {year} Votre société. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation"
   }

@@ -7,8 +7,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Your tech portal",
-    "subtitle": "Modern, fast and secure application",
+    "title": "Your Next.js application",
+    "subtitle": "Modern, fast, and secure boilerplate",
     "cta": "Get started"
   },
   "common": {
@@ -25,7 +25,7 @@
     "noResults": "No results"
   },
   "footer": {
-    "copyright": "© {year} IT-Akademy. All rights reserved.",
+    "copyright": "© {year} Your company. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service"
   }

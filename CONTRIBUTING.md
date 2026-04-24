@@ -1,11 +1,11 @@
-# Contributing to Fullstack Serverless SSR
+# Contributing to Next.js SST Boilerplate
 
 Thank you for your interest in contributing! This document provides guidelines for a smooth contribution workflow.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/Black0wI/nextjs-static-edge-template.git
+git clone https://github.com/Black0wI/fullstack-serverless-ssr.git
 cd fullstack-serverless-ssr
 make setup
 make dev
@@ -13,10 +13,10 @@ make dev
 
 ## Branch Strategy
 
-| Branch | Purpose                                    |
-| ------ | ------------------------------------------ |
-| `main` | Production — auto-deploys on push          |
-| `dev`  | Development — work-in-progress, PR to main |
+| Branch | Purpose                                      |
+| ------ | -------------------------------------------- |
+| `main` | Stable default branch                        |
+| `feat/*`, `fix/*` | Short-lived branches for contributions |
 
 ## Commit Conventions
 
@@ -32,12 +32,12 @@ chore: update dependencies
 
 ## Pull Request Process
 
-1. Create a branch from `dev`
+1. Create a branch from `main`
 2. Make your changes with descriptive commits
 3. Ensure all checks pass: `make check`
 4. Open a PR to `main`
-5. Wait for CI (lint, type-check, build) and Terraform plan review
-6. Get approval and merge
+5. Wait for review and address feedback
+6. Merge once the branch is approved and green
 
 ## Code Standards
 
